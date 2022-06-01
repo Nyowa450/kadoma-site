@@ -10,6 +10,7 @@
 }
 
 body {
+  width:auto;
   height: auto;
   background-color: #FBDA61;
   background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 90%);
@@ -20,6 +21,7 @@ h1{
   padding: 10px;
   color: rgb(252, 252, 252);
 }
+
 .wrapper {
   display: flex;
   justify-content: center;

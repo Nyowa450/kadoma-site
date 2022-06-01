@@ -122,21 +122,22 @@ h1{
 
   display: flex;
   padding-left: 15px;
-  padding-top: 35px;
+  padding-top: 0px;
   justify-content: center;
   align-items: center;
   min-height:  350px;
-  transform: translateY(-30px);
+  margin-top: 0px;
+  transform: translateY(-20px);
 }
 
 .nyowa {
-  margin: 5px auto;
+  margin: 1px auto;
   text-align: center;
-  transform: translateY(25px);
+  transform: translateY(-10px);
   color:aliceblue;
 }
 .nyowa p {
-  font-style: bold;
+  font-size: 1.2rem;
 }
 .ul {
   position: relative;
@@ -212,6 +213,11 @@ h1{
   padding: 50px;
   transform: translateY(-70px);
 }
+
+.memo p {
+  padding:10px 10px;
+}
+
 footer{
 
   text-align: center;

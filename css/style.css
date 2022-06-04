@@ -50,7 +50,7 @@ h1{
   border-top: 2px solid rgb(218, 208, 208,0.7);
   border-left: 2px solid rgb(218, 208, 208,0.7);
   box-shadow: 0 5px 15px rgba(192, 176, 176, 0.267);
-  backdrop-filter:blur(10px);
+  backdrop-filter:blur(15px);
   transition: 0.4s;
 }
 
@@ -217,18 +217,18 @@ h1{
   transform: translateY(10px);
 }
 .memo .memo-card {
-  width: 310px;
+  width: 290px;
   padding: 15px;
-  background:rgba(236, 230, 230, 0.288);
+  background:rgba(255, 255, 255, 0.253);
   border-radius: 20px;
-  border-top: 2px solid rgb(218, 208, 208,0.4);
-  border-left: 2px solid rgb(218, 208, 208,0.4);
-  backdrop-filter:blur(10px);
+  border-top: 2px solid rgb(218, 208, 208,0.3);
+  border-left: 2px solid rgb(218, 208, 208,0.3);
+  backdrop-filter:blur(15px);
   box-shadow: 0 5px 15px rgba(192, 176, 176, 0.267);
 }
 .memo .memo-card p {
   text-align: center;
-  color:aliceblue;
+  color:rgb(241, 241, 241);
   padding:10px 10px;
 }
 

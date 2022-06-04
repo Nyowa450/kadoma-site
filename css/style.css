@@ -16,7 +16,17 @@ body {
   background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 90%);
 }
 
+.header {
+  top: 0;
+  height: 70px;
+  width:100%;
+  background:rgba(243, 240, 240, 0.1);
+  border-radius: 0px 0px 15px 15px;
+  position: fixed;
+  z-index:2;
+  backdrop-filter:blur(10px);
 
+}
 h1{
   padding: 10px;
   color: rgb(252, 252, 252);
@@ -27,17 +37,20 @@ h1{
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  transform: translateY(80px);
   min-height: 400px;
-
 }
 
 .card {
   position: relative;
-  width: 310px;
+  width: 290px;
   height: 230px;
-  background-color: aliceblue;
+  background:rgba(248, 248, 248, 0.61);
   border-radius: 20px;
-  box-shadow: 0 25px 70px rgba(0,0,0,0.20);
+  border-top: 2px solid rgb(218, 208, 208,0.7);
+  border-left: 2px solid rgb(218, 208, 208,0.7);
+  box-shadow: 0 5px 15px rgba(192, 176, 176, 0.267);
+  backdrop-filter:blur(10px);
   transition: 0.4s;
 }
 
@@ -75,7 +88,6 @@ h1{
   display:flex;
   justify-content: center;
   align-items: flex-end;
-  
   margin-top:30px;
   overflow:hidden;
 }
@@ -99,9 +111,7 @@ h1{
 }
 
 .card .content .profile{
-
    transition: 0.4s;
-
 }
 .card:hover .content .profile {
  transform:translateY(-80px);
@@ -110,18 +120,14 @@ h1{
 .card .content .profile .data {
   transform:translateY(100px);
   transition: 0.3s;
- 
-
 }
 
 .card:hover .content .profile .data {
   transform:translateY(20px);
-
 }
 
 /* ナビゲーション用 */
 .wrapper-nav {
-
   display: flex;
   padding-left: 15px;
   padding-top: 0px;
@@ -129,14 +135,14 @@ h1{
   align-items: center;
   min-height:  350px;
   margin-top: 0px;
-  transform: translateY(-20px);
+  transform: translateY(10px);
 }
 
 .nyowa {
-  margin: 1px auto;
+  margin: 15px auto;
   text-align: center;
-  transform: translateY(-10px);
   color:aliceblue;
+  transform: translateY(50px);
 }
 .nyowa p {
   font-size: 1.2rem;
@@ -144,7 +150,6 @@ h1{
 .ul {
   position: relative;
   transform: skewY(-15deg);
- 
 }
 
 .ul li {
@@ -154,13 +159,11 @@ h1{
   padding:15px;
   z-index: var(--i);
   transition: 0.4s;
-
 }
 
 .ul li:hover {
   background: rgb(200, 209, 206);
   transform: translateX(-50px);
-
 }
 
 .ul li ::before {
@@ -174,7 +177,6 @@ h1{
   transform-origin: right;
   transform: skewY(45deg);
   transition: 0.4s;
-
 }
 
 .ul li:hover ::before {
@@ -207,24 +209,33 @@ h1{
 
 .ul li:hover a {
   color:rgb(134, 161, 185);
-
 }
 .memo {
-  text-align: center;
-  color: aliceblue;
-  padding: 50px;
-  transform: translateY(-70px);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(10px);
 }
-
-.memo p {
+.memo .memo-card {
+  width: 310px;
+  padding: 15px;
+  background:rgba(236, 230, 230, 0.288);
+  border-radius: 20px;
+  border-top: 2px solid rgb(218, 208, 208,0.4);
+  border-left: 2px solid rgb(218, 208, 208,0.4);
+  backdrop-filter:blur(10px);
+  box-shadow: 0 5px 15px rgba(192, 176, 176, 0.267);
+}
+.memo .memo-card p {
+  text-align: center;
+  color:aliceblue;
   padding:10px 10px;
 }
 
 footer{
-
   text-align: center;
   padding-bottom: 30px;
+  margin-top:40px;
   margin-bottom: 60px;
   color:aliceblue;
-
 }

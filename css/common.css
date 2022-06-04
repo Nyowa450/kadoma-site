@@ -1,0 +1,21 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kiwi Maru','Poppins', serif;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+body {
+  width:auto;
+  height: auto;
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 90%);
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
